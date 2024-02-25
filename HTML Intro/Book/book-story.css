@@ -1,0 +1,27 @@
+#book{
+    background:  #dddddd;
+    width: 400px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+#book h1 {
+    text-align: center;
+}
+
+#book p{
+    font-size: 18px;
+}
+
+.book h2{
+    text-align: left;
+}
+
+q before {
+    content: open-quote;
+}
+
+q after { 
+    content: close-quote;
+}
