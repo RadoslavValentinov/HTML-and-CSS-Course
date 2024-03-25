@@ -1,0 +1,26 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+header h1{
+    padding-left: 0px;
+    padding-right: 20px;
+    display: inline-block;
+}
+ul li{
+    padding-right: 20px;
+    display: inline-block;
+}
+ul li a{
+    color: lightgreen;
+}
+p{
+    font-family: Helvetica, sans-serif;
+}
