@@ -1,0 +1,22 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+span{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: black;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    max-width: 15vw;
+    max-height: 35rem;
+}
+.container:nth-child(5){
+    order: 1;
+}
