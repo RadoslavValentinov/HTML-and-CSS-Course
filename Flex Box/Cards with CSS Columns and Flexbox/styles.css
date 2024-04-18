@@ -1,0 +1,61 @@
+
+
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 1rem;
+}
+
+.cards-layout-masonry {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 1500px;
+}
+.cards-layout-masonry .card img{
+    width: 300px;
+    height: 200px;
+}
+
+.cards-layout-masonry .card{
+    flex: 1 0 auto;
+    margin: 0 1rem 1rem 0;
+    width: 300px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    margin-bottom: 20px
+}
+
+.cards-layout-masonry .card section{
+    padding: 10px;
+    display: block;
+    height: 250px;
+}
+
+/* this is other */
+.cards-layout-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-height: 1500px;
+}
+
+.cards-layout-masonry .card img{
+    width: 300px;
+    height: 200px;
+}
+.cards-layout-flex .card{
+    gap: 10px;
+    width: 300px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    margin-bottom: 20px
+}
+
+.cards-layout-flex .card section{
+    padding: 10px;
+    display: block;
+    height: 250px;
+}
