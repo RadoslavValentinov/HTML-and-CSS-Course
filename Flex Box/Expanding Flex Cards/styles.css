@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.container img{
+    width: 150px;
+    height: 400px;
+    border-radius: 6px;
+}
+.container img:nth-child(2){
+    width: 350px;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+}
